@@ -1,0 +1,93 @@
+.nav-bg-show {
+    -webkit-transition: background-color 700ms linear;
+    -ms-transition: background-color 700ms linear;
+    transition: background-color 700ms linear;
+}
+
+.nav-bg-hide {
+    -webkit-transition: background-color 700ms linear;
+    -ms-transition: background-color 700ms linear;
+    transition: background-color 700ms linear;
+}
+
+
+
+.custom-bg-color-1 {
+    background-color: #e9ecef;   
+}
+
+.custom-border-radius-1 {
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.custom-border-colour-1 {
+    border: 1px solid #e9ecef;
+}
+
+
+
+.result-container > div {
+    border-bottom: 1px solid #ffffff;
+}
+
+.result-container > div:last-child {
+    border-bottom: none;
+}
+
+
+
+.register-guest {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.register-guest:last-child {
+    border-bottom: none;
+}
+
+.register-visit {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.register-visit:last-child {
+    border-bottom: none;
+}
+
+
+
+.guest-lables {
+    font-size: 10pt;
+    opacity: 0.5;
+}
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+
+.favorite {
+    color: #e6c200;
+}
+
+
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    .print-remove-top-margin {
+    	margin-top: 0px !important;
+    }
+}
